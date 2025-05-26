@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ultrades_ros</name>
+  <version>1.0.0</version>
+  <description>ROS 1 interface for integrating UltraDES (Discrete Event Systems) into robotic applications.</description>
+
+  <maintainer email="matheuspaiva1024@gmail.com">Matheus Paiva</maintainer>
+  <author email="matheuspaiva1024@gmail.com">Matheus Paiva</author>
+
+  <license>MIT</license>
+
+  <url type="repository">https://github.com/lacsed/ultrades-ros</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <export>
+  </export>
+</package>
